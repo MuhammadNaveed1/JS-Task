@@ -1,5 +1,12 @@
 // Array (Palindrome task)
-var palindrome = 
+// var palindrome = prompt("Enter a word");
+// var checkForWord = palindrome.split("").reverse().join("");
+// if (palindrome === checkForWord) {
+//     alert("It's a palindrome word");
+// }
+// else {
+//     alert("Not a palindrome word");
+// }
 
 // // For loop (Palindrome task);
 // var palindrome = prompt("Enter a word");
