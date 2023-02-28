@@ -20,3 +20,16 @@
 // else {
 //     alert("Not a palindrome word");
 // }
+
+// // Array (Swapping value)
+// var arr = ["Naveed", "Anas", "Umer"];
+// arr[0] = [arr[2],arr[2] = arr[0]][0];
+// console.log(arr);
+
+// For loop (Capitalizing names in array)
+// var names = ["naveed", "anas", "umer", "athar", "sualeh"];
+// var capitalize;
+// for (var i = 0; i < names.length; i++) {
+//     capitalize = names[i][0].toUpperCase();
+//     console.log(capitalize + names[i].slice(1));
+// }
