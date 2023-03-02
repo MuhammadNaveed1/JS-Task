@@ -27,9 +27,22 @@
 // console.log(arr);
 
 // For loop (Capitalizing names in array)
-// var names = ["naveed", "anas", "umer", "athar", "sualeh"];
+// var names = prompt("Enter your name");
+// var split = names.split(" ");
 // var capitalize;
-// for (var i = 0; i < names.length; i++) {
-//     capitalize = names[i][0].toUpperCase();
-//     console.log(capitalize + names[i].slice(1));
+// var arr = [];
+// for (var i = 0; i < split.length; i++) {
+//     capitalize = (split[i].slice(0, 1).toLocaleUpperCase());
+//     arr.push(capitalize + split[i].slice(1));
 // }
+// document.write("Welcome " + arr.join(" "));
+
+// For loop (Finding any number of same word and replacing all of it with differenct word)
+// var text = "smit saylani smit saylani smit saylani smit saylani";
+// var split = text.split("");
+// for (var i = 0; i < split.length; i++) {
+//     if (split.slice(i, i + 7).join("") == "saylani") {
+//         split.splice(i, 7, "s", "m", "i", "t");
+//     }
+// }
+// console.log(split.join(""));
