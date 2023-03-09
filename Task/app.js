@@ -38,11 +38,11 @@
 // document.write("Welcome " + arr.join(" "));
 
 // For loop (Finding any number of same word and replacing all of it with differenct word)
-// var text = "smit saylani smit saylani smit saylani smit saylani";
+// var text = "Hello! These days, I am learning web and app development at Saylani.The sir at Saylani is very good and has also learned web and app development from Saylani";
 // var split = text.split("");
 // for (var i = 0; i < split.length; i++) {
-//     if (split.slice(i, i + 7).join("") == "saylani") {
-//         split.splice(i, 7, "s", "m", "i", "t");
+//     if (split.slice(i, i + 7).join("") == "Saylani") {
+//         split.splice(i, 7, "S", "M", "T", "T");
 //     }
 // }
 // console.log(split.join(""));
