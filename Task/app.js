@@ -46,3 +46,30 @@
 //     }
 // }
 // console.log(split.join(""));
+
+// For loop , random numbers, rounding numbers (Random password generator)
+// var cap = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// var small = "abcdefghijklmnopqrstuvwxyz";
+// var num = "0123456789";
+// var specialChar = "!@#$%^&*()";
+// var random;
+// var password = "";
+// for (var i = 0; i < 10; i++) {
+//     if (i < 3) {
+//         random = Math.floor(Math.random()* cap.length);
+//         password += cap[random];
+//     }
+//     else if (i > 2 && i < 6) {
+//         random = Math.floor(Math.random()* small.length);
+//         password += small[random];
+//     }
+//     else if (i > 5 && i < 9) {
+//         random = Math.floor(Math.random()* num.length);
+//         password += num[random];
+//     }
+//     else {
+//         random = Math.floor(Math.random()* specialChar.length);
+//         password += specialChar[random];
+//     }
+// }
+// document.write(password);
