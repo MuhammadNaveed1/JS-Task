@@ -73,3 +73,16 @@
 //     }
 // }
 // document.write(password);
+
+// For loop (Converting Decimal Number into Binary)
+// var decimalNum = prompt("Enter Decimal number to convert into Binary number");
+// var binaryNum = "";
+// for (var i = decimalNum; i > 0; i = Math.floor(i / 2)) {
+//     binaryNum = i % 2 + binaryNum;
+// }
+// if (binaryNum === "") {
+//     alert("Enter only number!");
+// }
+// else {
+//     alert("Binary number of " + decimalNum + " is " + binaryNum);
+// }
